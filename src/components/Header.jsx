@@ -1,58 +1,77 @@
-import React from 'react'
+import React, { useState } from 'react';
 
 function Header() {
-  return (
-    <>
-     <div id="preloader-active">
-        <div className="preloader d-flex align-items-center justify-content-center">
-            <div className="preloader-inner position-relative">
-                <div className="preloader-circle"></div>
-                <div className="preloader-img pere-text">
-                    <img src="assets/img/logo/loder.png" alt="logo"/>
-                </div>
-            </div>
-        </div>
-    </div>
+  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-      <header>
-        <div class="header-area header-transparent pt-20">
-            <div class="main-header header-sticky">
-                <div class="container-fluid">
-                    <div class="row align-items-center">
-                        <div class="col-xl-2 col-lg-2 col-md-1">
-                            <div class="logo">
-                                <a href="index.html"><img src="assets/img/logo/logo.png" alt=""/></a>
-                            </div>
-                        </div>
-                        <div class="col-xl-10 col-lg-10 col-md-10">
-                            <div class="menu-main d-flex align-items-center justify-content-end">
-                                <div class="main-menu f-right d-none d-lg-block">
-                                    <nav>
-                                        <ul id="navigation">
-                                            <li class="active"><a href="/">Home</a></li>
-                                            <li><a href="#about">About</a></li>
-                                            <li><a href="#services">Services</a></li>
-                                            <li><a href="portfolio">Portfolio</a></li>
-                                            
-                                            <li><a href="contact">Contact</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                                <div class="header-right-btn f-right d-none d-lg-block ml-30">
-                                    <a href="from.html" class="btn header-btn">Book Now</a>
-                                </div>
-                            </div>
-                        </div>   
-                        <div class="col-12">
-                            <div class="mobile_menu d-block d-lg-none"></div>
-                        </div>
-                    </div>
+  return (
+    <header>
+      <div className="header-area header-transparent pt-20">
+        <div className="main-header header-sticky">
+          <div className="container-fluid">
+            <div className="row align-items-center">
+              <div className="col-xl-2 col-lg-2 col-md-1 col-6">
+                <div className="logo">
+                  <a href="/"><img src="assets/img/logo/logo.png" alt="Logo" /></a>
                 </div>
+              </div>
+
+              {/* Hamburger button */}
+              <div className="col-6 d-lg-none text-end">
+                <button
+                  className="mobile-menu-toggle"
+                  onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
+                  style={{
+                    background: 'none',
+                    border: 'none',
+                    fontSize: '24px',
+                    marginLeft: '95%',
+                    color: '#d19f68'
+                  }}
+                >
+                  ☰
+                </button>
+              </div>
+
+              <div className="col-xl-10 col-lg-10 col-md-10 d-none d-lg-block">
+                <div className="menu-main d-flex align-items-center justify-content-end">
+                  <div className="main-menu f-right">
+                    <nav>
+                      <ul id="navigation">
+                        <li className="active"><a href="/">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="portfolio">Portfolio</a></li>
+                        <li><a href="contact">Contact</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                  <div className="header-right-btn f-right ml-30">
+                    <a href="from.html" className="btn header-btn">Book Now</a>
+                  </div>
+                </div>
+              </div>
             </div>
+
+            {/* Mobile menu */}
+            {isMobileMenuOpen && (
+              <div className="mobile-menu d-lg-none mt-3">
+                <nav>
+                  <ul style={{ listStyle: 'none', paddingLeft: 0 }}>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="portfolio">Portfolio</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li><a href="from.html" className="btn header-btn">Book Now</a></li>
+                  </ul>
+                </nav>
+              </div>
+            )}
+          </div>
         </div>
+      </div>
     </header>
-    </>
-  )
+  );
 }
 
-export default Header
+export default Header;
