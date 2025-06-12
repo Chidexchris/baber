@@ -62,7 +62,7 @@ function Header() {
                     <li><a href="#services">Services</a></li>
                     <li><a href="portfolio">Portfolio</a></li>
                     <li><a href="contact">Contact</a></li>
-                    <li><a href="from.html" className="btn header-btn">Book Now</a></li>
+                    <li><a href="https://forms.gle/K5WZfXrnGiWEn4DN8" className="btn header-btn">Book Now</a></li>
                   </ul>
                 </nav>
               </div>
