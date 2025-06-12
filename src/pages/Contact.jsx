@@ -14,7 +14,8 @@ function Contact() {
             <div class="d-none d-sm-block mb-5 pb-4">
             <div class="container-lg">
                 <iframe src="https://www.google.com/maps/embed?pb=!4v1749545348960!6m8!1m7!1sTfWboPJd0H03C1WxH6p3VA!2m2!1d5.498344098059721!2d7.485455471374603!3f83.31035275852089!4f-6.880592804592197!5f1.086894583717437" 
-                width="700" height="450" style={{border:"0"}} allowfullscreen="" 
+                title="Map showing our office location"
+                  width="700" height="450" style={{border:"0"}} allowfullscreen="" 
                 loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
             </div>
