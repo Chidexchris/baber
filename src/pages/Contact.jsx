@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Hero from '../components/Hero'
-
+import '../components/custom.css'
 function Contact() {
   return (
     <>
@@ -11,13 +11,21 @@ function Contact() {
 
     <section class="contact-section">
         <div class="container">
-            <div class="d-none d-sm-block mb-5 pb-4">
+         <div class=" d-sm-block mb-5 pb-4">
             <div class="container-lg">
+                  <div className="map-responsive">
+
                 <iframe src="https://www.google.com/maps/embed?pb=!4v1749545348960!6m8!1m7!1sTfWboPJd0H03C1WxH6p3VA!2m2!1d5.498344098059721!2d7.485455471374603!3f83.31035275852089!4f-6.880592804592197!5f1.086894583717437" 
+ HEAD
                 title="Map showing our office location"
                   width="700" height="450" style={{border:"0"}} allowfullscreen="" 
                 loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+
+                 style={{border:"0"}} allowfullscreen="" 
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='map'>
+700c9b3 (chages made complete)
                 </iframe>
+                </div>
             </div>
 
                 <div class="row">

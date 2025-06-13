@@ -15,7 +15,7 @@ function Index() {
                 <div className="row">
                   <div className="col-xl-8 col-lg-9 col-md-11 col-sm-10">
                     <div className="hero__caption">
-                      <span data-animation="fadeInUp" data-delay="0.2s">with patrick potter</span>
+                      <span data-animation="fadeInUp" data-delay="0.2s">with Olisa</span>
                       <h1 data-animation="fadeInUp" data-delay="0.5s">Our Hair Style make your look elegance</h1>
                     </div>
                   </div>
@@ -37,7 +37,7 @@ function Index() {
                 <div className="about-caption">
                   <div className="section-tittle section-tittle3 mb-35">
                     <span>About Our company</span>
-                    <h2>52 Years Of Experience In Hair cut!</h2>
+                    <h2>5 Years Of Experience In Hair cut!</h2>
                   </div>
                   <p className="mb-30 pera-bottom">Brook presents your services with flexible, convenient and cdpoe layouts. You can select your favorite layouts & elements for cular ts with unlimited ustomization possibilities. Pixel-perfreplication of the designers is intended.</p>
                   <p className="pera-top mb-50">Brook presents your services with flexible, convefnient and ent anipurpose layouts. You can select your favorite.</p>
@@ -79,7 +79,7 @@ function Index() {
                     <i className="flaticon-fitness"></i>
                   </div> 
                   <div className="service-cap">
-                    <h4><a href="/services/body-massage">Body Massage</a></h4>
+                    <h4><a href="/services/body-massage">Hair Coloring</a></h4>
                     <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
                   </div>
                 </div>
@@ -95,39 +95,9 @@ function Index() {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-4 col-lg-4 col-md-6">
-                <div className="services-caption active text-center mb-30">
-                  <div className="service-icon">
-                    <i className="flaticon-fitness"></i>
-                  </div> 
-                  <div className="service-cap">
-                    <h4><a href="/services/body-massage">Body Massage</a></h4>
-                    <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
-                  </div>
-                </div>
-              </div> 
-              <div className="col-xl-4 col-lg-4 col-md-6">
-                <div className="services-caption text-center mb-30">
-                  <div className="service-icon">
-                    <i className="flaticon-clock"></i>
-                  </div> 
-                  <div className="service-cap">
-                    <h4><a href="/services/beard-style">Beard Style</a></h4>
-                    <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-4 col-lg-4 col-md-6">
-                <div className="services-caption text-center mb-30">
-                  <div className="service-icon">
-                    <i className="flaticon-healthcare-and-medical"></i>
-                  </div> 
-                  <div className="service-cap">
-                    <h4><a href="/services/stylish-hair-cut">Stylish Hair Cut</a></h4>
-                    <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
-                  </div>
-                </div>
-              </div>
+               
+              
+              
             </div>
           </div>
         </section>
@@ -214,6 +184,8 @@ function Index() {
           </div>
         </div>
       </main>
+
+      
       <Footer />
     </>
   );

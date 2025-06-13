@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer>
+    <footer style={{backgroundColor: 'black'}}>
       <div className="footer-area section-bg" data-background="assets/img/gallery/footer_bg.png">
         <div className="container">
           <div className="footer-top footer-padding">
@@ -69,10 +69,10 @@ function Footer() {
               <div className="col-xl-9 col-lg-8">
                 <div className="footer-copy-right">
                   <p>
-                    Template is licensed under CC BY 3.0.
+                  
                     Copyright &copy;{new Date().getFullYear()} All rights reserved | 
-                    This template is made with <i className="fa fa-heart" aria-hidden="true"></i> by {' '}
-                    <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a>
+                    This was created <i className="fa fa-heart" aria-hidden="true"></i> by {' '}
+                    <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Deratech</a>
                   </p>
                 </div>
               </div>
