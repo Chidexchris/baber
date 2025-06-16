@@ -46,7 +46,7 @@ function Header() {
                     </nav>
                   </div>
                   <div className="header-right-btn f-right ml-30">
-                    <a href="from.html" className="btn header-btn">Book Now</a>
+                    <a href="https://forms.gle/K5WZfXrnGiWEn4DN8" className="btn header-btn" target='blank'>Book Now</a>
                   </div>
                 </div>
               </div>
@@ -62,7 +62,7 @@ function Header() {
                     <li><a href="#services">Services</a></li>
                     <li><a href="portfolio">Portfolio</a></li>
                     <li><a href="contact">Contact</a></li>
-                    <li><a href="https://forms.gle/K5WZfXrnGiWEn4DN8" className="btn header-btn">Book Now</a></li>
+                    <li><a href="https://forms.gle/K5WZfXrnGiWEn4DN8" className="btn header-btn" target='blank'>Book Now</a></li>
                   </ul>
                 </nav>
               </div>
